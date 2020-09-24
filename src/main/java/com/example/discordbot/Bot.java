@@ -57,7 +57,6 @@ public class Bot extends ListenerAdapter {
 
             Random rand = new Random();
 
-
             MessageChannel channel = event.getChannel();
 
             int numberOfElements = 50;
