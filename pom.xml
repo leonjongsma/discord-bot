@@ -24,6 +24,16 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+<!--		<dependency>-->
+<!--			<groupId>net.dv8tion</groupId>-->
+<!--			<artifactId>JDA</artifactId>-->
+<!--			<version>3.6.0_367</version>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>net.dv8tion</groupId>
+			<artifactId>JDA</artifactId>
+			<version>4.2.0_197</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -35,7 +45,26 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
 	</dependencies>
+
+
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<name>jcenter-bintray</name>
+			<url>http://jcenter.bintray.com</url>
+		</repository>
+		<repository>
+			<id>spring</id>
+			<name>spring-libs</name>
+			<url>https://repo.spring.io/libs-release/</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
